@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dyslexia-text-hints",
+        "command": "dyslexia-text-hints:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dyslexia-text-hints",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dyslexia-text-hints:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
